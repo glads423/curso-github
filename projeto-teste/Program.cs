@@ -10,7 +10,14 @@ namespace projeto_teste
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string s1 = "Hello World";
+            string s2 = "Good Morning";
+
+            Console.WriteLine(s1);
+            Console.Write("Escreva seu nome: ");
+            string s3 = Console.ReadLine();
+
+            Console.WriteLine($"{s1}! {s2}, {s3}!");
 
             Console.ReadKey();
 
