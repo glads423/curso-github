@@ -17,9 +17,11 @@ namespace projeto_teste
             Console.Write("Escreva seu nome: ");
             string s3 = Console.ReadLine();
 
+            Console.WriteLine("======================================");
             Console.WriteLine($"{s1}! {s2}, {s3}!");
 
-            Console.WriteLine("Tchau!!!");
+            Console.WriteLine("Tchau!!!");            
+            Console.WriteLine("======================================");
 
             Console.ReadKey();
 
