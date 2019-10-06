@@ -19,6 +19,8 @@ namespace projeto_teste
 
             Console.WriteLine($"{s1}! {s2}, {s3}!");
 
+            Console.WriteLine("Tchau!!!");
+
             Console.ReadKey();
 
         }
